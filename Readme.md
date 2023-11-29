@@ -5,6 +5,9 @@
 - inicializálás:
     >git init
 
+
+
+
 - git felhasználó ellenőrzése:
     >git config user.name
     
@@ -32,6 +35,9 @@
 
 - első push-nál meg kell mondani a branch nevét:
 >git push -u origin master
+
+- a további push-nál(a helyi repo meglegyen minden):
+>git push
 
 
 
