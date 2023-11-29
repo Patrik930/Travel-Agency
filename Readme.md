@@ -16,4 +16,8 @@
 
 - előkészítés a commit-ra(beindexelődnek) minden változást eltárolunk:
     >git add .
+    ellenőrzés:
+    >git status
+-eltárolása az újabb verziónak:
+    >git commit -m "First commit"
 
