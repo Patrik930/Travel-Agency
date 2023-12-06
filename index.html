@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <script src="getData.js"></script>
+    <script src="test.js" defer></script>
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Bebas+Neue&display=swap");
@@ -87,13 +88,11 @@
     <div class="container container-fluid" id="content">
       <h1 class="text-center">Arany Napfény Utazási Iroda</h1>
       <div class="row">
+        
         <div class="form-check form-switch">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            id="flexSwitchCheckDefault"
-            onchange="changeTheme()"
-          />
+          
+          <input type="checkbox" onchange="changeTheme()" checked data-toggle="toggle" data-width="100">
+          
           <label class="form-check-label" for="flexSwitchCheckDefault"
             >Switch Light/Dark</label
           >
@@ -201,6 +200,8 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
+
+
     ></script>
   </body>
 </html>
